@@ -26,14 +26,14 @@
     "axios": "^1.10.0",
     "daisyui": "^5.0.43",
     "date-fns": "^4.1.0",
-    "react": "^19.1.0",
+    "react": "^19.2.7",
     "react-dom": "^19.1.0",
     "react-hotjar": "^6.3.1",
     "react-icons": "^5.4.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.11",
-    "@types/react": "^19.1.8",
+    "@types/react": "^19.2.17",
     "@types/react-dom": "^19.1.6",
     "@typescript-eslint/eslint-plugin": "^7.8.0",
     "@typescript-eslint/parser": "^7.3.1",
