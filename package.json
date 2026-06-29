@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@arifszn/blog-js": "^2.0.6",
-    "axios": "^1.10.0",
+    "axios": "^1.18.1",
     "daisyui": "^5.0.43",
     "date-fns": "^4.1.0",
     "react": "^19.1.0",
