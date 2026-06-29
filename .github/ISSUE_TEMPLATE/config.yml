@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussions
+    url: https://github.com/6jt8/Git2Page/discussions
+    about: Ask questions, share ideas, and connect with the community in GitHub Discussions.
+  - name: Documentation
+    url: https://github.com/6jt8/Git2Page/wiki
+    about: Check the wiki for setup guides, configuration reference, and troubleshooting.

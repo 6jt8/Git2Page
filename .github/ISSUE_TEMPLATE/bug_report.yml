@@ -1,0 +1,88 @@
+name: Bug Report
+description: Report a bug or unexpected behavior in Git2Page
+labels: ["bug", "triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this bug! Please fill out the sections below to help us fix it.
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: "When I visit my portfolio, the projects section doesn't load..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this behavior?
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: The projects section should display my GitHub repositories.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: The section is empty and shows a loading spinner indefinitely.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain the problem.
+      placeholder: Drag and drop screenshots here...
+    validations:
+      required: false
+  - type: input
+    id: portfolio-url
+    attributes:
+      label: Portfolio URL
+      description: Link to your deployed portfolio (if applicable).
+      placeholder: https://username.github.io/Git2Page/
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Please provide details about your environment.
+      placeholder: |
+        - OS: [e.g. Windows 11, macOS 14]
+        - Browser: [e.g. Chrome 125, Firefox 126]
+        - Node.js version: [e.g. 20.14.0]
+        - Git2Page version: [e.g. 1.0.0]
+      value: |
+        - OS:
+        - Browser:
+        - Node.js version:
+        - Git2Page version:
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other context about the problem (config snippets, console errors, etc.).
+      placeholder: |
+        Console error: "Uncaught TypeError: Cannot read properties of undefined..."
+        Relevant config from git2page.config.ts: ...
+    validations:
+      required: false

@@ -1,0 +1,54 @@
+name: Configuration / Setup Help
+description: Get help with setting up or configuring Git2Page
+labels: ["question", "triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Having trouble setting up or configuring Git2Page? We're here to help!
+        Please also check the [Documentation](https://github.com/6jt8/Git2Page/wiki) and existing [Discussions](https://github.com/6jt8/Git2Page/discussions) before opening an issue.
+  - type: textarea
+    id: question
+    attributes:
+      label: What do you need help with?
+      description: Describe what you're trying to achieve and where you're stuck.
+      placeholder: I'm trying to [...] but when I [...] it doesn't work as expected.
+    validations:
+      required: true
+  - type: dropdown
+    id: setup-type
+    attributes:
+      label: How are you using Git2Page?
+      options:
+        - Forked repo (GitHub Pages)
+        - Local development
+        - Vercel
+        - Netlify
+        - Docker
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: config
+    attributes:
+      label: Relevant Configuration
+      description: Share the relevant parts of your `git2page.config.ts` (remove any personal data).
+      placeholder: |
+        const CONFIG = {
+          github: { username: 'myusername' },
+          base: '/Git2Page/',
+          // ...
+        };
+      render: typescript
+    validations:
+      required: false
+  - type: textarea
+    id: error
+    attributes:
+      label: Error Output
+      description: Any error messages from the browser console, terminal, or build logs?
+      placeholder: Paste error messages or logs here...
+      render: shell
+    validations:
+      required: false
