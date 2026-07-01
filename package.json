@@ -27,7 +27,7 @@
     "daisyui": "^5.0.43",
     "date-fns": "^4.1.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "react-dom": "^19.2.7",
     "react-hotjar": "^6.3.1",
     "react-icons": "^5.4.0"
   },
@@ -35,7 +35,7 @@
     "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/postcss": "^4.1.11",
     "@types/react": "^19.1.8",
-    "@types/react-dom": "^19.1.6",
+    "@types/react-dom": "^19.2.3",
     "@typescript-eslint/eslint-plugin": "^7.8.0",
     "@typescript-eslint/parser": "^7.3.1",
     "@vitejs/plugin-react": "^4.4.1",
